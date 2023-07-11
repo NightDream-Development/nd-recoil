@@ -5,11 +5,6 @@ This recoil system is designed for RP servers!
 Requirments:
 -Newest ox_lib!
 
-Features:
--Editable config with support for custom weapons!
--plug'n play
--Spread system wich gose up and down randomly!
-
 # [Buy Us a Coffe!](https://nightdream.tebex.io/package/5774667)
 # Contact us! in [Our discord](https://discord.gg/P9UZuXNrGX)
 
