@@ -6,7 +6,7 @@ Requirments:
 -Newest ox_lib!
 
 # [Buy Us a Coffe!](https://nightdream.tebex.io/package/5774667)
-# Contact us! in [Our discord](https://discord.gg/P9UZuXNrGX)
+# Contact us in [Our discord](https://discord.gg/P9UZuXNrGX)
 
 ## License
 MIT License
