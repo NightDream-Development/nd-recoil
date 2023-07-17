@@ -38,7 +38,7 @@ CreateThread(function()
 end)
 
 
-local maxSpread = 1.0
+local maxSpread = Config.maxspread
 
 CreateThread(function()
 	while true do
