@@ -124,3 +124,6 @@ recoils = {
 	[GetHashKey("weapon_remington")] = 0.7,
 	[GetHashKey("weapon_scarh")] = 0.5,
 }
+
+
+Config.maxspread = 1.0
