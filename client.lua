@@ -1,10 +1,9 @@
 CreateThread(function()
 	while true do
 		if IsPedArmed(cache.ped, 4) ~= false then
-			local ped = cache.ped
-			if IsPedShooting(ped) and not IsPedDoingDriveby(ped) then
-				local _, wep = GetCurrentPedWeapon(ped)
-				_, cAmmo = GetAmmoInClip(ped, wep)
+			if IsPedShooting(cache.ped) and not IsPedDoingDriveby(cache.ped) then
+				local _, wep = GetCurrentPedWeapon(cache.ped)
+				_, cAmmo = GetAmmoInClip(cache.ped, wep)
 				if recoils[wep] and recoils[wep] ~= 0 then
 					local tv = 0
 					if GetFollowPedCamViewMode() ~= 4 then
@@ -41,9 +40,9 @@ CreateThread(function()
 	while true do
 		if IsPedArmed(cache.ped, 4) ~= false then
 			local ped = PlayerPedId()
-			if IsPedShooting(ped) and not IsPedDoingDriveby(ped) then
-				local _, wep = GetCurrentPedWeapon(ped)
-				_, cAmmo = GetAmmoInClip(ped, wep)
+			if IsPedShooting(cache.ped) and not IsPedDoingDriveby(cache.ped) then
+				local _, wep = GetCurrentPedWeapon(cache.ped)
+				_, cAmmo = GetAmmoInClip(cache.ped, wep)
 				if recoils[wep] and recoils[wep] ~= 0 then
 					local tv = 0
 					local spread = math.random() * 2 * math.pi
