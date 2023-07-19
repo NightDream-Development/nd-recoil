@@ -6,7 +6,6 @@ CreateThread(function()
 				local _, wep = GetCurrentPedWeapon(ped)
 				_, cAmmo = GetAmmoInClip(ped, wep)
 				if recoils[wep] and recoils[wep] ~= 0 then
-					-- luacheck: ignore
 					local tv = 0
 					if GetFollowPedCamViewMode() ~= 4 then
 						repeat
@@ -37,9 +36,7 @@ CreateThread(function()
 	end
 end)
 
-
-local maxSpread = Config.maxspread
-
+--Spread system
 CreateThread(function()
 	while true do
 		if IsPedArmed(cache.ped, 4) ~= false then
@@ -50,7 +47,7 @@ CreateThread(function()
 				if recoils[wep] and recoils[wep] ~= 0 then
 					local tv = 0
 					local spread = math.random() * 2 * math.pi
-					local radius = math.sqrt(math.random()) * maxSpread
+					local radius = math.sqrt(math.random()) * Config.maxspread
 					local xSpread = radius * math.cos(spread)
 					local ySpread = radius * math.sin(spread)
 					if GetFollowPedCamViewMode() ~= 4 then
