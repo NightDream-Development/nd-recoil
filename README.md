@@ -1,5 +1,5 @@
 # nd-recoil
-This recoil system is designed for RP servers!
+This recoil system designed for RP servers!
 
 
 Requirments:
