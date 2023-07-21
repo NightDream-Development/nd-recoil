@@ -1,29 +1,7 @@
-recoils = {
-	-- Melee
-	-- [-1834847097] = 0.3,		--['weapon_dagger']
-	-- [-1786099057] = 0.3,		--['weapon_bat']
-	-- [-102323637] = 0.3,		--['weapon_bottle']
-	-- [2067956739] = 0.3,		--['weapon_crowbar']
-	-- [-1951375401] = 0.3,		--['weapon_flashlight']
-	-- [1141786504] = 0.3,		--['weapon_golfclub']
-	-- [1317494643] = 0.3,		--['weapon_hammer']
-	-- [-102973651] = 0.3,		--['weapon_hatchet']
-	-- [-656458692] = 0.3,		--['weapon_knuckle']
-	-- [-1716189206] = 0.3,		--['weapon_knife']
-	-- [-581044007] = 0.3,		--['weapon_machete']
-	-- [-538741184] = 0.3,		--['weapon_switchblade']
-	-- [1737195953] = 0.3,		--['weapon_nightstick']
-	-- [419712736] = 0.3,		--['weapon_wrench']
-	-- [-853065399] = 0.3,		--['weapon_battleaxe']
-	-- [-1810795771] = 0.3,		--['weapon_poolcue']
-	-- [-2000187721] = 0.0,		--['weapon_briefcase']
-	-- [28811031] = 0.0,		--['weapon_briefcase_02']
-	-- [-499989876] = 0.0,		--['weapon_garbagebag']
-	-- [-800287667] = 0.0,		--['weapon_handcuffs']
-	-- [1309015656] = 0.0,		--['weapon_bread']
-	-- [940833800] = 0.3,		--['weapon_stone_hatchet']
-
-	-- Handguns
+Config = {}
+Config.maxspread = 1.0
+Config.recoils = {
+-- Handguns
 	[453432689] = 0.3, --['weapon_pistol']
 	[-1075685676] = 0.5, --['weapon_pistol_mk2']
 	[1593441988] = 0.2, --['weapon_combatpistol']
@@ -124,6 +102,3 @@ recoils = {
 	[GetHashKey("weapon_remington")] = 0.7,
 	[GetHashKey("weapon_scarh")] = 0.5,
 }
-
-
-Config.maxspread = 1.0
