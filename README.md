@@ -2,8 +2,8 @@
 This recoil system designed for RP servers!
 
 
-Requirments:
--Newest ox_lib!
+# Requirments:
+[ox_lib] https://github.com/overextended/ox_lib/releases/tag/v3.10.1
 
 # [Buy Us a Coffe!](https://nightdream.tebex.io/package/5774667)
 # Contact us in [Our discord](https://discord.gg/P9UZuXNrGX)
