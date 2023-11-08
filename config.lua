@@ -1,5 +1,5 @@
 Config = {}
-Config.maxspread = 1.0
+Config.maxspread = 0.2
 Config.recoils = {
 -- Handguns
 	[453432689] = 0.3, --['weapon_pistol']
@@ -64,23 +64,24 @@ Config.recoils = {
 	[-608341376] = 0.1, --['weapon_combatmg_mk2']
 
 	-- Sniper Rifles
-	[100416529] = 0.5, --['weapon_sniperrifle']
-	[205991906] = 0.7, --['weapon_heavysniper']
+	[100416529] = 2.5, --['weapon_sniperrifle']
+	[205991906] = 1.7, --['weapon_heavysniper']
 	[-952879014] = 0.3, --['weapon_marksmanrifle']
 	[856002082] = 1.2, --['weapon_remotesniper']
 	[177293209] = 0.6, --['weapon_heavysniper_mk2']
 	[1785463520] = 0.3, --['weapon_marksmanrifle_mk2']
 
 	-- Heavy Weapons
-	[-1312131151] = 0.0, --['weapon_rpg']
+	[-1312131151] = 10.0, --['weapon_rpg']
 	[-1568386805] = 1.0, --['weapon_grenadelauncher']
 	[1305664598] = 1.0, --['weapon_grenadelauncher_smoke']
 	[1119849093] = 0.1, --['weapon_minigun']
 	[2138347493] = 0.3, --['weapon_firework']
-	[1834241177] = 2.4, --['weapon_railgun']
+	[1834241177] = 9.4, --['weapon_railgun']
 	[1672152130] = 0.0, --['weapon_hominglauncher']
 	[125959754] = 0.5, --['weapon_compactlauncher']
 	[-1238556825] = 0.3, --['weapon_rayminigun']
+	[GetHashKey("weapon_tacticalrifle")] = 0.7,
 	-- CUSTOM WEAPONS (You can remove these if you dont use it!)
 	[GetHashKey("weapon_ak47")] = 0.5,
 	[GetHashKey("weapon_de")] = 0.5,
